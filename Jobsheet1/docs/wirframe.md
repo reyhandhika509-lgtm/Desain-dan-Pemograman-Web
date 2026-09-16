@@ -43,12 +43,12 @@ Halaman yang sudah ada (Beranda, Daftar/Tambah Buku, Daftar/Tambah Anggota — J
 |              SIMPUS-Mini             |
 |--------------------------------------|
 |                                      |
-|        [ Login Petugas ]            |
+|        [ Login Petugas ]             |
 |                                      |
-|   Username : [______________]       |
-|   Password : [______________]       |
+|   Username : [______________]        |
+|   Password : [______________]        |
 |                                      |
-|          [   Masuk   ]              |
+|          [   Masuk   ]               |
 |                                      |
 +--------------------------------------+
 ```
@@ -60,13 +60,13 @@ Halaman yang sudah ada (Beranda, Daftar/Tambah Buku, Daftar/Tambah Anggota — J
 | SIMPUS-Mini   Beranda | Daftar Buku | Daftar Anggota | Peminjaman  (Nama Petugas) Logout |
 |-------------------------------------------------------------------|
 | [Total Buku] [Total Anggota] [Sedang Dipinjam] [Buku Terlambat]   |
-|                                                                     |
-|  Aksi Cepat:                                                       |
-|  [ + Peminjaman Baru ]   [ + Pengembalian ]                        |
-|                                                                     |
-|  Transaksi Terbaru                                                 |
-|  ----------------------------------------------------------------  |
-|  Anggota        | Buku            | Tgl Pinjam | Status            |
+|                                                                   |
+|  Aksi Cepat:                                                      |
+|  [ + Peminjaman Baru ]   [ + Pengembalian ]                       |
+|                                                                   |
+|  Transaksi Terbaru                                                |
+|  ---------------------------------------------------------------- |
+|  Anggota        | Buku            | Tgl Pinjam | Status           |
 +-----------------------------------------------------------------+
 ```
 
@@ -82,7 +82,7 @@ Baris navigasi dan 4 kartu statistik (Total Buku, Total Anggota, Sedang Dipinjam
 |  Buku    : [ dropdown, hanya stok>0 ]|
 |  Tanggal Pinjam : [ auto: hari ini ] |
 |                                      |
-|          [  Simpan Peminjaman  ]    |
+|          [  Simpan Peminjaman  ]     |
 +--------------------------------------+
 ```
 
@@ -103,17 +103,17 @@ Baris navigasi dan 4 kartu statistik (Total Buku, Total Anggota, Sedang Dipinjam
 
 ```
 +--------------------------------------------------+
-|  Riwayat Peminjaman — Siti Aminah (A001)         |
+|  Riwayat Peminjaman — Siti Aminah (A001)           |
 |----------------------------------------------------|
-|  Buku            | Pinjam   | Kembali | Status      |
-|  Laskar Pelangi  | 01/07    | 10/07   | Selesai     |
-|  Bumi Manusia    | 15/07    | -       | Dipinjam    |
+|  Buku            | Pinjam   | Kembali | Status     |
+|  Laskar Pelangi  | 01/07    | 10/07   | Selesai    |
+|  Bumi Manusia    | 15/07    | -       | Dipinjam   |
 +--------------------------------------------------+
 ```
 
 ## Konsistensi dengan Desain yang Sudah Berjalan
 
-- Warna aksen hijau (`#065c15`), tipografi navbar, dan gaya tabel/kartu mengikuti `assets/css/style.css` yang sudah dibangun.
+- Warna aksen merah (`#9B1B30`), tipografi navbar, dan gaya tabel/kartu mengikuti `assets/css/style.css` yang sudah dibangun.
 - Navbar akan ditambah menu **Peminjaman** dan indikator status login (nama petugas / tombol Logout) — cukup menambah `<li><a>` baru karena navbar sudah pakai Flexbox, tanpa perlu ubah CSS.
 - Form Login dan Form Peminjaman/Pengembalian memakai pola `<label>` + `<input>` yang sama seperti form Tambah Buku/Tambah Anggota yang sudah ada, sehingga otomatis mendapat gaya `form label` dan `form input` dari `style.css`.
 - Kartu statistik Dashboard Petugas memakai ulang komponen `.kartu-statistik` (CSS Grid) yang sama persis dengan Beranda, hanya beda konteks halaman.
