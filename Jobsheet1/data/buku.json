@@ -1,0 +1,92 @@
+[
+{
+"id": 1,
+"judul": "Pemrograman Web Dasar",
+"pengarang": "Budi Santoso",
+"tahun": 2022,
+"isbn": "978-602-1111-1111",
+"stok": 5,
+"kategori": "non-fiksi"
+},
+{
+"id": 2,
+"judul": "Algoritma dan Struktur Data",
+"pengarang": "Andi Wijaya",
+"tahun": 2021,
+"isbn": "978-602-2222-2222",
+"stok": 3,
+"kategori": "referensi"
+},
+{
+"id": 3,
+"judul": "Dasar-Dasar Java",
+"pengarang": "Rina Pratiwi",
+"tahun": 2023,
+"isbn": "978-602-3333-3333",
+"stok": 4,
+"kategori": "non-fiksi"
+},
+{
+"id": 4,
+"judul": "Belajar HTML dan CSS",
+"pengarang": "Dedi Kurniawan",
+"tahun": 2020,
+"isbn": "978-602-4444-4444",
+"stok": 2,
+"kategori": "non-fiksi"
+},
+{
+"id": 5,
+"judul": "Pengantar Basis Data",
+"pengarang": "Siti Aminah",
+"tahun": 2022,
+"isbn": "978-602-5555-5555",
+"stok": 6,
+"kategori": "referensi"
+},
+{
+"id": 6,
+"judul": "Pemrograman Berorientasi Objek",
+"pengarang": "Agus Setiawan",
+"tahun": 2024,
+"isbn": "978-602-6666-6666",
+"stok": 3,
+"kategori": "non-fiksi"
+},
+{
+"id": 7,
+"judul": "Sistem Informasi Manajemen",
+"pengarang": "Dewi Lestari",
+"tahun": 2021,
+"isbn": "978-602-7777-7777",
+"stok": 4,
+"kategori": "referensi"
+},
+{
+"id": 8,
+"judul": "Belajar JavaScript",
+"pengarang": "Fajar Nugroho",
+"tahun": 2023,
+"isbn": "978-602-8888-8888",
+"stok": 5,
+"kategori": "non-fiksi"
+},
+{
+"id": 9,
+"judul": "Rekayasa Perangkat Lunak",
+"pengarang": "Hendra Saputra",
+"tahun": 2020,
+"isbn": "978-602-9999-9999",
+"stok": 2,
+"kategori": "referensi"
+},
+{
+"id": 10,
+"judul": "Jaringan Komputer Dasar",
+"pengarang": "Rizky Maulana",
+"tahun": 2022,
+"isbn": "978-602-1010-1010",
+"stok": 7,
+"kategori": "non-fiksi"
+}
+]
